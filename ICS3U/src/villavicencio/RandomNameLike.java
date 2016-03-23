@@ -27,7 +27,7 @@ public class RandomNameLike {
 	 if (num >=0 && num <=7)
 		 System.out.println("I love your name " + name + ". Indeed wonderful!");
 	 else
-		 System.out.println("I do not like your name" + name + ". Sorry I hate it.");
+		 System.out.println("I do not like your name " + name + ". Sorry I hate it.");
 	 
 	 
 	 

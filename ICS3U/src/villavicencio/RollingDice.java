@@ -1,19 +1,25 @@
 package villavicencio;
+import java.util.Scanner;
 
 public class RollingDice {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		Scanner sc = new Scanner(System.in);
 		//variables
 		int dice1;
 		int dice2;
 		int user1;
 		int user2;
+		boolean keepPlaying = true; 
+		String answer;
 		
 		
-	    
+	
 		
+		while (keepPlaying)
+		{
 		// preparing rolling dice user1
 		dice1 = (int) (Math.random() * 6 + 1);
 		dice2 = (int) (Math.random() * 6 + 1);
@@ -40,6 +46,19 @@ public class RollingDice {
 		else
 			System.out.println("UserPal Wins!");
 		
+		System.out.println("Want to keep playing: yes or no");
+		answer = sc.nextLine();
+		
+		
+		if (answer.equals("no") ){ 
+			keepPlaying = false;
+			
+		}
+		
+		if (answer.equals("yes") ){ 
+			keepPlaying = true; 
+		}
+		}
 		
 		
 		

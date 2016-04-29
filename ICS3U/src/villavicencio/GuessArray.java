@@ -17,7 +17,7 @@ Apr 24 2016
 		
 		
 		
-		String [] guess = new String [] {"blue", "green", "teal", "yellow", "orange", "brown", "red", "charcoal", "pink", "violet", "aqua", "avocado", "gold", "celeste", "cintron", "grey", "silver", "copper", "cyan", "tangerine"};
+		String [] guess = {"blue", "green", "teal", "yellow", "orange", "brown", "red", "charcoal", "pink", "violet", "aqua", "avocado", "gold", "celeste", "cintron", "grey", "silver", "copper", "cyan", "tangerine"};
 		
 		
 		System.out.println("Choose an colour, I will guess which colour you are thing king of! READY?! Click enter.");

@@ -6,7 +6,8 @@ public class GuessArray
 Meant to choose a random colour to guess the colour of the user
 Paola Villavicencio
 Apr 24 2016
-*/{
+*/
+public class GuessArray{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

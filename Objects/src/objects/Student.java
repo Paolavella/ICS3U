@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*TowerHanoiPuzzle.java program allows the user to know the order of the movements by recursive methods. According to the number of disk sent they input to solve the Hanoi Towers.
  *September 19, 2016
  *Paola Villavicencio */
-public class Student implements Comparable{
+
 public class Student  {
 
 // all variables being declared
@@ -20,12 +20,13 @@ public class Student  {
 	
 	
 	
-	public Student(String firstName, String lastName) {
-		firstName= "";// set variable name 
-		lastName= "";// set variable last name 
-		lastName= "";// set variable last name 
-		lastName= "";// set variable last name 
-		lastName= "";// set variable last name 
+	public Student(String firstNameInput, String lastNameInput) {
+		firstName= firstNameInput;// set variable name 
+		lastName= lastNameInput;// set variable last name 
+		streetA= ("");// set variable name 
+		phoneNumber = ("");// set variable name 
+		postCode= ("");// set variable name 
+		birthdate= ("");// set variable name 
 	}
 	
 	
@@ -101,10 +102,17 @@ public class Student  {
 	public String getBirthDate(){
 		return this.birthdate;
 	}
-	public String getPostCode(String nextLine) {
+	public String getpostCode() {
 		return this.postCode;
 		
 	}
 	
+	public String toString(){
+		return firstName+","+lastName+","+streetA +","+phoneNumber+","+postCode+","+birthdate;
+		
+	}
+	public String toSave(){}
+	public String toLoad(){}
+	
 }
-}
+
